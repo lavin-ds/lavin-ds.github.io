@@ -6,5 +6,16 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://lavin-ds.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lavin Sharma</title>
+      <link>https://lavin-ds.github.io/about/</link>
+      <pubDate>Sat, 28 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://lavin-ds.github.io/about/</guid>
+      
+        <description>Engineer, trying to make the virtual world a better place</description>
+      
+    </item>
+    
   </channel>
 </rss>

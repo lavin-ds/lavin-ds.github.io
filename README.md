@@ -1,2 +1,3 @@
 # HugoBlog
-All blog content for the Github static site
+
+This here is my bloc :)

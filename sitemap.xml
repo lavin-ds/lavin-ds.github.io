@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>lavin-ds/posts/first-test/</loc>
+    <loc>posts/first-test/</loc>
     <lastmod>2022-11-13T13:19:24+01:00</lastmod>
   </url><url>
-    <loc>lavin-ds/</loc>
+    <loc></loc>
     <lastmod>2022-11-13T13:19:24+01:00</lastmod>
   </url><url>
-    <loc>lavin-ds/posts/</loc>
+    <loc>posts/</loc>
     <lastmod>2022-11-13T13:19:24+01:00</lastmod>
   </url><url>
-    <loc>lavin-ds/categories/</loc>
+    <loc>categories/</loc>
   </url><url>
-    <loc>lavin-ds/tags/</loc>
+    <loc>tags/</loc>
   </url>
 </urlset>

@@ -1,3 +1,3 @@
 # HugoBlog
 
-This here is my bloc :)
+This here is my blog :)

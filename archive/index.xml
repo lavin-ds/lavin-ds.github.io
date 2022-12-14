@@ -30,7 +30,18 @@
     </item>
     
     <item>
-      <title>Search Algorithms - Linear Search</title>
+      <title>Binary Search</title>
+      <link>https://lavin-ds.github.io/archive/binary-search/</link>
+      <pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://lavin-ds.github.io/archive/binary-search/</guid>
+      
+        <description>Suppose that you wish to search for an entry in a telephone directory.</description>
+      
+    </item>
+    
+    <item>
+      <title>Linear Search</title>
       <link>https://lavin-ds.github.io/archive/linear-search/</link>
       <pubDate>Sun, 22 Dec 2013 00:00:00 +0000</pubDate>
       

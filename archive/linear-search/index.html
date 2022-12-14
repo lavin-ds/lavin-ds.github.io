@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme="light"
+  class="html"
+><head>
+  <title>
+    
+      Lavin Sharma
+        |
+        Search Algorithms - Linear Search
+
+
+      
+
+
+    
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.99.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Lavin Sharma" />
+  <meta
+    name="description"
+    content="
+      Thoughts on technology, culture, and life
+
+
+    "
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.0891fd15be02aec56b4f3be63f0b4c2f373c595dbc0e30bed960ea94fa540e2a.css"
+      integrity="sha256-CJH9Fb4CrsVrTzvmPwtMLzc8WV28DjC&#43;2WDqlPpUDio="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.b1c4e6a10bdbab01f33fff9d78816ee68cf9a9a731f07668afd546a79924cb80.css"
+    integrity="sha256-scTmoQvbqwHzP/&#43;deIFu5oz5qacx8HZor9VGp5kky4A="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.423dee17c62f55fa733a4ee13e00d523dfce88cc4f4ab4549a24ba36bd9de681.css"
+    integrity="sha256-Qj3uF8YvVfpzOk7hPgDVI9/OiMxPSrRUmiS6Nr2d5oE="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.b7d54133b27e5b4de15245b8e143de3e8ed2d674c706137274cedc9953f31917.css"
+    integrity="sha256-t9VBM7J&#43;W03hUkW44UPePo7S1nTHBhNydM7cmVPzGRc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://lavin-ds.github.io/archive/linear-search/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Search Algorithms - Linear Search"/>
+<meta name="twitter:description" content="Searching for data in an array of data items is a job that comes up regularly in various fields related to software programming."/>
+
+
+
+  
+  <meta property="og:title" content="Search Algorithms - Linear Search" />
+<meta property="og:description" content="Searching for data in an array of data items is a job that comes up regularly in various fields related to software programming." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lavin-ds.github.io/archive/linear-search/" /><meta property="article:section" content="archive" />
+<meta property="article:published_time" content="2013-12-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-12-22T00:00:00+00:00" /><meta property="og:site_name" content="random musings" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "archive",
+        "name": "Search Algorithms - Linear Search",
+        "headline": "Search Algorithms - Linear Search",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Searching for data in an array of data items is a job that comes up regularly in various fields related to software programming.
+
+
+      
+
+
+    ",
+        "inLanguage": "en-us",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/lavin-ds.github.io\/archive\/linear-search\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Lavin Sharma"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Lavin Sharma"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Lavin Sharma"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Lavin Sharma"
+        },
+        "copyrightYear" : "2013",
+        "dateCreated": "2013-12-22T00:00:00.00Z",
+        "datePublished": "2013-12-22T00:00:00.00Z",
+        "dateModified": "2013-12-22T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Lavin Sharma",
+            "url": "https://lavin-ds.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/lavin-ds.github.io\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/lavin-ds.github.io\/archive\/linear-search\/",
+        "wordCount" : "725",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
+</head>
+<body
+    
+      class="body theme--light"
+
+    
+  >
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+
+        
+      ><div
+  class="sidebar
+    .
+
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/prof.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">random musings</a>
+        </div>
+
+      
+      <div class="sidebar__introduction-description">
+        <p>Thoughts on technology, culture, and life</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/lavin-ds"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/lavins/"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://twitter.com/lavin_ds"
+            target="_blank"
+            rel="noopener"
+            aria-label="Twitter"
+            title="Twitter"
+          >
+            <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Lavin Sharma 2011-2022
+
+      
+    </li>
+    
+  </ul>
+</footer></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+
+        
+      >
+        <header class="header"><div
+  class="
+    .
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+
+        
+
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/archive"
+              
+              title=""
+              >Archive</a
+            >
+          </li>
+
+        
+
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/about"
+              
+              title=""
+              >About</a
+            >
+          </li>
+
+        
+
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      .
+
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Search Algorithms - Linear Search</h1>
+      <p>Searching for data in an array of data items is a job that comes up regularly in various fields related to software programming. For example, you need to store records of employees and then look them up by their ID.</p>
+<p>There are two basic types of searching algorithms present</p>
+<ul>
+<li>Linear search</li>
+<li>Binary search</li>
+</ul>
+<p><strong>Linear Search</strong></p>
+<p>Linear search is where you visit each item in the data set matching it with the item you are searching for. This is a pretty straightforward search which has a maximum of n comparisons between the data items and the number/item you are looking for. The number of comparisons gets reduced when the data item you are looking for is closer to the beginning of the set.</p>
+<p>E.g. Let us take an array of integers</p>
+<pre><code>            a[] = {1,3,5,2,8,6,9,7,10,4};
+</code></pre>
+<p>Assume that we are looking for the number 8.</p>
+<p>We will start at the first element of the set (position <code>a[0]</code>), match it with 8. We conclude that the numbers don’t match and hence 8 is not present at the first location.</p>
+<p>Next we move to the second location of the array (position <code>a[1]</code>), match it with 8. Again we conclude that 8 is not present at that location and move ahead.</p>
+<p>Similarly we keep cycling through each of the items till we reach position <code>a[4]</code>. When we match 8 with the number present at this location we get a match, and we can end the loop because we have found what we are looking for.</p>
+<p>We did this by matching 8 with the number with only five comparisons between 8 and the data items in the array.</p>
+<p>In case the array is as below</p>
+<pre><code>            a[] = {1,3,5,2,6,9,7,10,4,8}; //8 in the last position
+</code></pre>
+<p>or</p>
+<pre><code>            a[] = {1,3,5,2,6,9,7,10,4,11}; // 8 not in the list
+</code></pre>
+<p>then we will have to compare 8 with every item in the data set. This would be the worst case condition for Linear Search.</p>
+<p><strong>Complexity</strong></p>
+<p>From the above example we see that the complexity of the algorithm in the worst case is directly proportional to the number of items in the data set.</p>
+<p>In the average case of this algorithms&rsquo; complexity we use probabilistic notions.</p>
+<p>Suppose p is the probability that the item (eg. 8) appears in the data set (a[]) and q is the probability that it does not appear in the data set.</p>
+<p>Thus, we have probability</p>
+<pre><code>                        p + q = 1
+</code></pre>
+<p>The probability p can be broken up for each of the n items.</p>
+<p>Suppose that p1 is the probability that the item we are searching for is the 1st number in the list.
+Similarly, p2 is the probability that the item we are searching for is the 2nd number in the list.
+In this way we have</p>
+<pre><code>            1 * p1 + 2 * p2 + 3 * p3 + 4 * p4 + ... + n * pn + (n+1) * q = 1
+</code></pre>
+<p>Since we are testing the average case we can assume that the number will be present in one of the locations and q = 0.</p>
+<p>Thus</p>
+<pre><code>            1 * p1 + 2 * p2 + 3 * p3 + 4 * p4 + ... + n * pn = 1
+</code></pre>
+<p>Also since the item we are searching for (eg. 8) can appear with equal probability in any of the locations we have</p>
+<pre><code>            p1 = p2 = p3 = p4 = ... = pn = 1/n
+</code></pre>
+<p>i.e.</p>
+<pre><code>            (1 * 1/n) + (2 * 1/n) + (3 * 1/n) + (4 * 1/n) + ... + (n * 1/n) = 1
+                        (1 + 2 + 3 + 4 + ... + n) x 1/n = 1
+                                    n(n+1)/2  x 1/n = 1
+                                        (n+1)/2 = 1
+</code></pre>
+<p>Thus, the average case complexity of linear search is</p>
+<pre><code>                                        (n+1)/2
+</code></pre>
+<p><strong>Sample Linear Search Program in C</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">int</span> array[<span style="color:#ae81ff">10</span>] <span style="color:#f92672">=</span> {<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">6</span>,<span style="color:#ae81ff">7</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">10</span>,<span style="color:#ae81ff">9</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">5</span>};
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">int</span> i;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   printf(<span style="color:#e6db74">&#34;We are looking for the number 10</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">for</span> (i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">10</span>; i<span style="color:#f92672">++</span>) <span style="color:#75715e">// Here 10 is the size of the array
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (array[i] <span style="color:#f92672">==</span> <span style="color:#ae81ff">10</span>) <span style="color:#75715e">// if the required data item is found
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      {
+</span></span><span style="display:flex;"><span>         printf(<span style="color:#e6db74">&#34;10 is present at location %d.</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,i);
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> <span style="color:#ae81ff">10</span>) <span style="color:#75715e">//If item is not present in any of the array positions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      printf(<span style="color:#e6db74">&#34;10 is not present in the array.</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><em>Output</em></p>
+<pre><code>We are looking for the number 10
+10 is present at location 6.
+</code></pre>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Lavin Sharma 2011-2022
+
+      
+    </li>
+    
+  </ul>
+</footer></body>
+</html>

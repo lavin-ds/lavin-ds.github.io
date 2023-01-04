@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobs on </title>
+    <link>https://lavin-ds.github.io/tags/jobs/</link>
+    <description>Recent content in Jobs on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://lavin-ds.github.io/tags/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Here&#39;s to the crazy ones, RIP Steve Jobs</title>
+      <link>https://lavin-ds.github.io/archive/rip-jobs/</link>
+      <pubDate>Sat, 08 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://lavin-ds.github.io/archive/rip-jobs/</guid>
+      
+        <description>Because the people who are crazy enough to think they can change the world are the ones who do.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

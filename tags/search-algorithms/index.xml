@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Search Algorithms on </title>
+    <link>https://lavin-ds.github.io/tags/search-algorithms/</link>
+    <description>Recent content in Search Algorithms on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Dec 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://lavin-ds.github.io/tags/search-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binary Search</title>
+      <link>https://lavin-ds.github.io/archive/binary-search/</link>
+      <pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://lavin-ds.github.io/archive/binary-search/</guid>
+      
+        <description>Suppose that you wish to search for an entry in a telephone directory.</description>
+      
+    </item>
+    
+    <item>
+      <title>Linear Search</title>
+      <link>https://lavin-ds.github.io/archive/linear-search/</link>
+      <pubDate>Sun, 22 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://lavin-ds.github.io/archive/linear-search/</guid>
+      
+        <description>Searching for data in an array of data items is a job that comes up regularly in various fields related to software programming.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

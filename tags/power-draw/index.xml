@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>power draw on </title>
+    <link>https://lavin-ds.github.io/tags/power-draw/</link>
+    <description>Recent content in power draw on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lavin-ds.github.io/tags/power-draw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laptop power draw</title>
+      <link>https://lavin-ds.github.io/til/laptop-power-draw/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lavin-ds.github.io/til/laptop-power-draw/</guid>
+      
+        <description>Tiny bash script to figure out your laptops power draw on a Linux based OS.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

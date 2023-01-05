@@ -3,7 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lavin-ds.github.io/</loc>
-    <lastmod>2016-12-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lavin-ds.github.io/til/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lavin-ds.github.io/tags/bash/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lavin-ds.github.io/til/laptop-power-draw/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lavin-ds.github.io/tags/power-draw/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lavin-ds.github.io/tags/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lavin-ds.github.io/til/find-and-kill-process/</loc>
+    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lavin-ds.github.io/tags/kill/</loc>
+    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lavin-ds.github.io/tags/process/</loc>
+    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lavin-ds.github.io/tags/curl/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lavin-ds.github.io/til/curl/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lavin-ds.github.io/archive/</loc>
     <lastmod>2016-12-27T00:00:00+00:00</lastmod>
@@ -26,7 +57,10 @@
     <loc>https://lavin-ds.github.io/tags/search-algorithms/</loc>
     <lastmod>2013-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lavin-ds.github.io/tags/</loc>
+    <loc>https://lavin-ds.github.io/series/search-algorithms/</loc>
+    <lastmod>2013-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lavin-ds.github.io/series/</loc>
     <lastmod>2013-12-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lavin-ds.github.io/archive/linear-search/</loc>
@@ -91,7 +125,5 @@
   </url><url>
     <loc>https://lavin-ds.github.io/archive/underlying-lies/</loc>
     <lastmod>2011-05-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lavin-ds.github.io/categories/</loc>
   </url>
 </urlset>

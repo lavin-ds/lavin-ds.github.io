@@ -6,7 +6,40 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://lavin-ds.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lavin-ds.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laptop power draw</title>
+      <link>https://lavin-ds.github.io/til/laptop-power-draw/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lavin-ds.github.io/til/laptop-power-draw/</guid>
+      
+        <description>Tiny bash script to figure out your laptops power draw on a Linux based OS.</description>
+      
+    </item>
+    
+    <item>
+      <title>Find and Kill a process</title>
+      <link>https://lavin-ds.github.io/til/find-and-kill-process/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lavin-ds.github.io/til/find-and-kill-process/</guid>
+      
+        <description>Find a process running on a particular port</description>
+      
+    </item>
+    
+    <item>
+      <title>curl</title>
+      <link>https://lavin-ds.github.io/til/curl/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lavin-ds.github.io/til/curl/</guid>
+      
+        <description>Capturing the curl command and its params here for posterity</description>
+      
+    </item>
+    
     <item>
       <title>The Journey Back - Kashmir</title>
       <link>https://lavin-ds.github.io/archive/journey-back/</link>
